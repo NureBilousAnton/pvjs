@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+  background: #f9f9f9;
+  color: #222;
+}
+
+.badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.badge.category {
+  background: #ede9fe;
+  color: #5a3cc5;
+}
+
+.badge.priority.high {
+  background: #fee2e2;
+  color: #c00;
+}
+
+.badge.priority.medium {
+  background: #fff3e0;
+  color: #e65100;
+}
+
+.badge.priority.low {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
